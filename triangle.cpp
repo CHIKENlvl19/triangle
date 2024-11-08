@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <locale.h>
+#include <locale>
 #include <cmath>
 using namespace std;
 float a, b, c; // инициализация переменных, содержащиз значение длин сторон треугольника

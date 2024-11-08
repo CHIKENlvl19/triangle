@@ -1,9 +1,11 @@
 ﻿#include <iostream>
 #include <cmath>
-#include <locale.h>
+#include <locale>
+
 using namespace std;
 int main() {
 	setlocale(LC_ALL, "Russian");
+	
 	float widht, hight, area, perimetr, diagonal;
 	// Ввод данных
 	cout << "Введите ширину прямоугольника" << endl;
